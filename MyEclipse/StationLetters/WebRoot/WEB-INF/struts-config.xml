@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+  <form-beans >
+    <form-bean name="loginUserForm" type="com.Dolph.web.struts.form.LoginUserForm" />
+    <form-bean name="registerUserForm" type="com.Dolph.web.struts.form.RegisterUserForm" />
+    <form-bean name="sendMessageForm" type="com.Dolph.web.struts.form.SendMessageForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    
+    <action
+      attribute="registerUserForm"
+      name="registerUserForm"
+      path="/registerUser"
+      scope="request"
+      type="com.Dolph.web.struts.action.RegisterUserAction"
+      cancellable="true">
+      <forward name="gologin" path="/WEB-INF/login.jsp" />
+      <forward name="err" path="/WEB-INF/register.jsp" />
+    </action>
+    <action
+      attribute="loginUserForm"
+      input="/WEB-INF/login.jsp"
+      name="loginUserForm"
+      parameter="flag"
+      path="/loginUser"
+      scope="request"
+      type="com.Dolph.web.struts.action.LoginUserAction"
+      cancellable="true" >
+      <forward name="register" path="/WEB-INF/register.jsp" />
+      <forward name="err" path="/WEB-INF/login.jsp" />
+      <forward name="ok" path="/WEB-INF/wel.jsp" />
+      
+    </action>
+    
+    
+    <action
+      input="/WEB-INF/wel.jsp"
+      path="/listMessage"
+      type="com.Dolph.web.struts.action.ListMessageAction"
+      validate="false"
+      cancellable="true">
+      <forward name="listmessage" path="/WEB-INF/message.jsp" />
+      
+    </action>
+    <action
+      attribute="sendMessageForm"
+      input="/WEB-INF/sendmessage.jsp"
+      name="sendMessageForm"
+      parameter="flag"
+      path="/sendMessage"
+      scope="request"
+      type="com.Dolph.web.struts.action.SendMessageAction"
+      cancellable="true">
+      <forward name="gosendmessage" path="/WEB-INF/sendmessage.jsp" />
+      <forward name="sendok" path="/WEB-INF/message.jsp" />
+      <forward name="goback" path="/WEB-INF/wel.jsp" />
+    </action>
+
+
+
+
+
+
+
+    
+
+  </action-mappings>
+
+  <message-resources parameter="com.Dolph.web.struts.ApplicationResources" />
+</struts-config>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="lib" path="F:/程序/MyEclipse/Spring3/src/lib/asm-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/程序/MyEclipse/Spring3/src/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/程序/MyEclipse/Spring3/src/lib/spring-beans-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/程序/MyEclipse/Spring3/src/lib/spring-context-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/程序/MyEclipse/Spring3/src/lib/spring-core-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/程序/MyEclipse/Spring3/src/lib/spring-expression-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/文档/Springs/spring-framework-2.5.6/lib/aspectj/aspectjrt.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/文档/Springs/spring-framework-2.5.6/lib/aspectj/aspectjweaver.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/文档/Springs/spring-framework-2.5.6/lib/aopalliance/aopalliance.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/文档/Springs/spring-framework-3.2.2/spring-framework-3.2.2/libs/spring-aop-3.2.2.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

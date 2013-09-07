@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:trufun="http://trufun" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_JKyXUI-mEeKttrRa-xameQ" name="model">
+  <eAnnotations xmi:id="_JLVw8I-mEeKttrRa-xameQ" source="TaggedValues">
+    <details xmi:id="_JLVw8Y-mEeKttrRa-xameQ" key="ProjectType" value="UML2Project"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_JNyoAI-mEeKttrRa-xameQ" source="Diagrams"/>
+  <packageImport xmi:id="_JKyXUY-mEeKttrRa-xameQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_eZDE0I-mEeKttrRa-xameQ" name="用例">
+    <eAnnotations xmi:id="_gFRWEI-mEeKttrRa-xameQ" source="Diagrams">
+      <contents xmi:type="trufun:TUsecaseDiagram" xmi:id="_bQ6PMI-mEeKttrRa-xameQ" id="_bQ2k0I-mEeKttrRa-xameQ" owner="_eZDE0I-mEeKttrRa-xameQ" name="用例图" rulerVisibility="true" gridVisibility="true" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TActorNode" xmi:id="_iY6MoI-mEeKttrRa-xameQ" owner="_g9RVEI-mEeKttrRa-xameQ" name="User" filled="true" outgoingConnections="_qgn6pI-mEeKttrRa-xameQ _3AD21Y-mEeKttrRa-xameQ _7mIqF4-mEeKttrRa-xameQ _KfMJAo-nEeKttrRa-xameQ _Nj-Ioo-nEeKttrRa-xameQ _S7tCUo-nEeKttrRa-xameQ" location="88,66" size="36,60">
+          <fillColor xmi:id="_iY6MoY-mEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_iY6Moo-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_iY6Mo4-mEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_iY6MpI-mEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_lh4IsI-mEeKttrRa-xameQ" owner="_jxRGsI-mEeKttrRa-xameQ" name="登录" filled="true" incomingConnections="_qgn6pI-mEeKttrRa-xameQ" location="286,0" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_lh4IsY-mEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_lh4Iso-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_lh4Is4-mEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_lh4ItI-mEeKttrRa-xameQ"/>
+          <extensionPointCompartmentNode xmi:id="_lh4ItY-mEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_tTN-EI-mEeKttrRa-xameQ" owner="_r2gvgI-mEeKttrRa-xameQ" name="发送消息" filled="true" incomingConnections="_3AD21Y-mEeKttrRa-xameQ _hfO9MI-nEeKttrRa-xameQ" location="286,44" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_tTN-EY-mEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_tTN-Eo-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_tTN-E4-mEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_tTN-FI-mEeKttrRa-xameQ"/>
+          <extensionPointCompartmentNode xmi:id="_tTN-FY-mEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_509AUY-mEeKttrRa-xameQ" owner="_509AUI-mEeKttrRa-xameQ" name="查看接收消息" filled="true" incomingConnections="_7mIqF4-mEeKttrRa-xameQ" location="286,88" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_509AUo-mEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_509AU4-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_509AVI-mEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_509AVY-mEeKttrRa-xameQ" id="_509AUI-mEeKttrRa-xameQ"/>
+          <extensionPointCompartmentNode xmi:id="_509AVo-mEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_JAhyoY-nEeKttrRa-xameQ" owner="_JAhyoI-nEeKttrRa-xameQ" name="查看我发送的消息" filled="true" incomingConnections="_KfMJAo-nEeKttrRa-xameQ" location="286,154" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_JAhyoo-nEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_JAhyo4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_JAhypI-nEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_JAhypY-nEeKttrRa-xameQ" id="_JAhyoI-nEeKttrRa-xameQ"/>
+          <extensionPointCompartmentNode xmi:id="_JAhypo-nEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_K-0rUY-nEeKttrRa-xameQ" owner="_K-0rUI-nEeKttrRa-xameQ" name="删除消息" filled="true" incomingConnections="_Nj-Ioo-nEeKttrRa-xameQ" location="198,264" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_K-0rUo-nEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_K-0rU4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_K-0rVI-nEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_K-0rVY-nEeKttrRa-xameQ" id="_K-0rUI-nEeKttrRa-xameQ"/>
+          <extensionPointCompartmentNode xmi:id="_K-0rVo-nEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_RxtUYY-nEeKttrRa-xameQ" owner="_RxtUYI-nEeKttrRa-xameQ" name="查看垃圾箱" filled="true" incomingConnections="_S7tCUo-nEeKttrRa-xameQ" location="264,220" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_RxtUYo-nEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_RxtUY4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_RxtUZI-nEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_RxtUZY-nEeKttrRa-xameQ" id="_RxtUYI-nEeKttrRa-xameQ"/>
+          <extensionPointCompartmentNode xmi:id="_RxtUZo-nEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TCommentNode" xmi:id="_bcohkY-nEeKttrRa-xameQ" owner="_bcohkI-nEeKttrRa-xameQ" name="可以对单个,多个,及组用户进行发送" filled="true" outgoingConnections="_hfO9MI-nEeKttrRa-xameQ" location="557,70" size="120,30" keepMaxSize="false">
+          <fillColor xmi:id="_bcohko-nEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_bcohk4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_bcohlI-nEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_bcohlY-nEeKttrRa-xameQ" id="_bcohkI-nEeKttrRa-xameQ"/>
+        </nodes>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_qgn6pI-mEeKttrRa-xameQ" owner="_qgnTkI-mEeKttrRa-xameQ" name="" target="_lh4IsI-mEeKttrRa-xameQ" source="_iY6MoI-mEeKttrRa-xameQ">
+          <fillColor xmi:id="_qgn6pY-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_qgn6po-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_3AD21Y-mEeKttrRa-xameQ" owner="_3ADPwI-mEeKttrRa-xameQ" name="" target="_tTN-EI-mEeKttrRa-xameQ" source="_iY6MoI-mEeKttrRa-xameQ">
+          <fillColor xmi:id="_3AD21o-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_3AD214-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_7mIqF4-mEeKttrRa-xameQ" owner="_7mIqEI-mEeKttrRa-xameQ" name="" target="_509AUY-mEeKttrRa-xameQ" source="_iY6MoI-mEeKttrRa-xameQ">
+          <fillColor xmi:id="_7mIqGI-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_7mIqGY-mEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_KfMJAo-nEeKttrRa-xameQ" owner="_KfLh8I-nEeKttrRa-xameQ" name="" target="_JAhyoY-nEeKttrRa-xameQ" source="_iY6MoI-mEeKttrRa-xameQ">
+          <fillColor xmi:id="_KfMJA4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_KfMJBI-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_Nj-Ioo-nEeKttrRa-xameQ" owner="_Nj9hkI-nEeKttrRa-xameQ" name="" target="_K-0rUY-nEeKttrRa-xameQ" source="_iY6MoI-mEeKttrRa-xameQ">
+          <fillColor xmi:id="_Nj-Io4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_Nj-IpI-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_S7tCUo-nEeKttrRa-xameQ" owner="_S7sbQI-nEeKttrRa-xameQ" name="" target="_RxtUYY-nEeKttrRa-xameQ" source="_iY6MoI-mEeKttrRa-xameQ">
+          <fillColor xmi:id="_S7tCU4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_S7tCVI-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TCommentLinkConnection" xmi:id="_hfO9MI-nEeKttrRa-xameQ" target="_tTN-EI-mEeKttrRa-xameQ" source="_bcohkY-nEeKttrRa-xameQ">
+          <fillColor xmi:id="_hfO9MY-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_hfO9Mo-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <leftRuler xmi:id="_bQ6PMY-mEeKttrRa-xameQ" unit="2"/>
+        <topRuler xmi:id="_bQ6PMo-mEeKttrRa-xameQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <ownedComment xmi:id="_bcohkI-nEeKttrRa-xameQ" annotatedElement="_r2gvgI-mEeKttrRa-xameQ">
+      <body>可以对单个,多个,及组用户进行发送</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_g9RVEI-mEeKttrRa-xameQ" name="User"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jxRGsI-mEeKttrRa-xameQ" name="登录"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_r2gvgI-mEeKttrRa-xameQ" name="发送消息"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qgnTkI-mEeKttrRa-xameQ" memberEnd="_qgnTkY-mEeKttrRa-xameQ _qgn6oY-mEeKttrRa-xameQ">
+      <ownedEnd xmi:id="_qgnTkY-mEeKttrRa-xameQ" name="" visibility="private" type="_jxRGsI-mEeKttrRa-xameQ" isUnique="false" association="_qgnTkI-mEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qgn6oI-mEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qgnTko-mEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_qgn6oY-mEeKttrRa-xameQ" name="" visibility="private" type="_g9RVEI-mEeKttrRa-xameQ" isUnique="false" association="_qgnTkI-mEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qgn6o4-mEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qgn6oo-mEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_3ADPwI-mEeKttrRa-xameQ" memberEnd="_3ADPwY-mEeKttrRa-xameQ _3AD20o-mEeKttrRa-xameQ">
+      <ownedEnd xmi:id="_3ADPwY-mEeKttrRa-xameQ" name="" visibility="private" type="_r2gvgI-mEeKttrRa-xameQ" isUnique="false" association="_3ADPwI-mEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3AD20Y-mEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3AD20I-mEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_3AD20o-mEeKttrRa-xameQ" name="" visibility="private" type="_g9RVEI-mEeKttrRa-xameQ" isUnique="false" association="_3ADPwI-mEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3AD21I-mEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3AD204-mEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_509AUI-mEeKttrRa-xameQ" name="查看接收消息"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7mIqEI-mEeKttrRa-xameQ" memberEnd="_7mIqEY-mEeKttrRa-xameQ _7mIqFI-mEeKttrRa-xameQ">
+      <ownedEnd xmi:id="_7mIqEY-mEeKttrRa-xameQ" name="" visibility="private" type="_509AUI-mEeKttrRa-xameQ" isUnique="false" association="_7mIqEI-mEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7mIqE4-mEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7mIqEo-mEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_7mIqFI-mEeKttrRa-xameQ" name="" visibility="private" type="_g9RVEI-mEeKttrRa-xameQ" isUnique="false" association="_7mIqEI-mEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7mIqFo-mEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7mIqFY-mEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JAhyoI-nEeKttrRa-xameQ" name="查看我发送的消息"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KfLh8I-nEeKttrRa-xameQ" memberEnd="_KfLh8Y-nEeKttrRa-xameQ _KfLh9I-nEeKttrRa-xameQ">
+      <ownedEnd xmi:id="_KfLh8Y-nEeKttrRa-xameQ" name="" visibility="private" type="_JAhyoI-nEeKttrRa-xameQ" isUnique="false" association="_KfLh8I-nEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KfLh84-nEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KfLh8o-nEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_KfLh9I-nEeKttrRa-xameQ" name="" visibility="private" type="_g9RVEI-mEeKttrRa-xameQ" isUnique="false" association="_KfLh8I-nEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KfMJAY-nEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KfMJAI-nEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_K-0rUI-nEeKttrRa-xameQ" name="删除消息"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Nj9hkI-nEeKttrRa-xameQ" memberEnd="_Nj9hkY-nEeKttrRa-xameQ _Nj9hlI-nEeKttrRa-xameQ">
+      <ownedEnd xmi:id="_Nj9hkY-nEeKttrRa-xameQ" name="" visibility="private" type="_K-0rUI-nEeKttrRa-xameQ" isUnique="false" association="_Nj9hkI-nEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nj9hk4-nEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nj9hko-nEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_Nj9hlI-nEeKttrRa-xameQ" name="" visibility="private" type="_g9RVEI-mEeKttrRa-xameQ" isUnique="false" association="_Nj9hkI-nEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nj-IoY-nEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nj-IoI-nEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RxtUYI-nEeKttrRa-xameQ" name="查看垃圾箱"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_S7sbQI-nEeKttrRa-xameQ" memberEnd="_S7sbQY-nEeKttrRa-xameQ _S7sbRI-nEeKttrRa-xameQ">
+      <ownedEnd xmi:id="_S7sbQY-nEeKttrRa-xameQ" name="" visibility="private" type="_RxtUYI-nEeKttrRa-xameQ" isUnique="false" association="_S7sbQI-nEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S7sbQ4-nEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S7sbQo-nEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_S7sbRI-nEeKttrRa-xameQ" name="" visibility="private" type="_g9RVEI-mEeKttrRa-xameQ" isUnique="false" association="_S7sbQI-nEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S7tCUY-nEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S7tCUI-nEeKttrRa-xameQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLhXII-mEeKttrRa-xameQ" name="Byte">
+    <eAnnotations xmi:id="_JLh-MI-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLh-MY-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLjzYI-mEeKttrRa-xameQ" name="Character">
+    <eAnnotations xmi:id="_JLjzYY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLjzYo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLkacI-mEeKttrRa-xameQ" name="Date">
+    <eAnnotations xmi:id="_JLkacY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLkaco-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLlBgI-mEeKttrRa-xameQ" name="Double">
+    <eAnnotations xmi:id="_JLlBgY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLlBgo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLm2sI-mEeKttrRa-xameQ" name="Float">
+    <eAnnotations xmi:id="_JLm2sY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLm2so-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLoE0I-mEeKttrRa-xameQ" name="Long">
+    <eAnnotations xmi:id="_JLoE0Y-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLoE0o-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLpS8I-mEeKttrRa-xameQ" name="Real">
+    <eAnnotations xmi:id="_JLpS8Y-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLpS8o-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLp6AI-mEeKttrRa-xameQ" name="Short">
+    <eAnnotations xmi:id="_JLp6AY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLp6Ao-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLqhEI-mEeKttrRa-xameQ" name="Int">
+    <eAnnotations xmi:id="_JLqhEY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLqhEo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLrIII-mEeKttrRa-xameQ" name="String">
+    <eAnnotations xmi:id="_JLrIIY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLrIIo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLs9UI-mEeKttrRa-xameQ" name="Integer">
+    <eAnnotations xmi:id="_JLs9UY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLs9Uo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLtkYI-mEeKttrRa-xameQ" name="byte">
+    <eAnnotations xmi:id="_JLtkYY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLtkYo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLuLcI-mEeKttrRa-xameQ" name="character">
+    <eAnnotations xmi:id="_JLuLcY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLuygI-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JLvZkI-mEeKttrRa-xameQ" name="date">
+    <eAnnotations xmi:id="_JLvZkY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JLvZko-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL0SEI-mEeKttrRa-xameQ" name="double">
+    <eAnnotations xmi:id="_JL0SEY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL0SEo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL1gMI-mEeKttrRa-xameQ" name="float">
+    <eAnnotations xmi:id="_JL1gMY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL2HQI-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL2HQY-mEeKttrRa-xameQ" name="long">
+    <eAnnotations xmi:id="_JL2HQo-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL2HQ4-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL2uUI-mEeKttrRa-xameQ" name="real">
+    <eAnnotations xmi:id="_JL2uUY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL2uUo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL3VYI-mEeKttrRa-xameQ" name="short">
+    <eAnnotations xmi:id="_JL3VYY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL3VYo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL38cI-mEeKttrRa-xameQ" name="int">
+    <eAnnotations xmi:id="_JL38cY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL38co-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL5KkI-mEeKttrRa-xameQ" name="string">
+    <eAnnotations xmi:id="_JL5KkY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL5Kko-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JL5xoI-mEeKttrRa-xameQ" name="integer">
+    <eAnnotations xmi:id="_JL5xoY-mEeKttrRa-xameQ" source="Internel_TaggedValues">
+      <details xmi:id="_JL5xoo-mEeKttrRa-xameQ" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_uItboI-mEeKttrRa-xameQ" name="类图">
+    <eAnnotations xmi:id="_0NlIII-mEeKttrRa-xameQ" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_JNyoAY-mEeKttrRa-xameQ" id="_JNiJUI-mEeKttrRa-xameQ" owner="_uItboI-mEeKttrRa-xameQ" name="model" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_m4L-4Y-nEeKttrRa-xameQ" owner="_m4L-4I-nEeKttrRa-xameQ" name="User" filled="true" outgoingConnections="_RWoFcI-oEeKttrRa-xameQ _mQSb8I-oEeKttrRa-xameQ _2xlrE4-oEeKttrRa-xameQ" location="23,83" size="157,89" autoResize="true">
+          <fillColor xmi:id="_m4L-4o-nEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_m4L-44-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_m4L-5I-nEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_m4L-5Y-nEeKttrRa-xameQ" id="_m4L-4I-nEeKttrRa-xameQ"/>
+          <operationCompartmentNode xmi:id="_m4L-5o-nEeKttrRa-xameQ"/>
+          <attributeCompartmentNode xmi:id="_m4L-54-nEeKttrRa-xameQ">
+            <attributes xmi:id="_oDetUI-nEeKttrRa-xameQ" owner="_oDeGQI-nEeKttrRa-xameQ" name="id : int"/>
+            <attributes xmi:id="_olLFII-nEeKttrRa-xameQ" owner="_olKeEI-nEeKttrRa-xameQ" name="username : string"/>
+            <attributes xmi:id="_p_LlAI-nEeKttrRa-xameQ" owner="_p_KW4I-nEeKttrRa-xameQ" name="password : int"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="_m4L-6I-nEeKttrRa-xameQ"/>
+          <templateParameterCompartmentNode xmi:id="_m4L-6Y-nEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_sDfmIY-nEeKttrRa-xameQ" owner="_sDfmII-nEeKttrRa-xameQ" name="SendMessage" filled="true" incomingConnections="_RWoFcI-oEeKttrRa-xameQ" outgoingConnections="_PGKesI-oEeKttrRa-xameQ" location="260,0" size="175,89" autoResize="true">
+          <fillColor xmi:id="_sDfmIo-nEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_sDfmI4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_sDfmJI-nEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_sDfmJY-nEeKttrRa-xameQ" id="_sDfmII-nEeKttrRa-xameQ"/>
+          <operationCompartmentNode xmi:id="_sDfmJo-nEeKttrRa-xameQ"/>
+          <attributeCompartmentNode xmi:id="_sDfmJ4-nEeKttrRa-xameQ">
+            <attributes xmi:id="_wC3lwI-nEeKttrRa-xameQ" owner="_wC2XoI-nEeKttrRa-xameQ" name="id : int"/>
+            <attributes xmi:id="_1R6dgI-nEeKttrRa-xameQ" owner="_1R5PYI-nEeKttrRa-xameQ" name="sendtime : Date"/>
+            <attributes xmi:id="_3EOvsI-nEeKttrRa-xameQ" owner="_3ENhkI-nEeKttrRa-xameQ" name="receiveName : string"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="_sDfmKI-nEeKttrRa-xameQ"/>
+          <templateParameterCompartmentNode xmi:id="_sDfmKY-nEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TClassNode" xmi:id="__cO8cY-nEeKttrRa-xameQ" owner="__cO8cI-nEeKttrRa-xameQ" name="Message" filled="true" incomingConnections="_PGKesI-oEeKttrRa-xameQ _a4dBAo-oEeKttrRa-xameQ _3mmAco-oEeKttrRa-xameQ" location="552,128" size="139,89" autoResize="true">
+          <fillColor xmi:id="__cO8co-nEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="__cO8c4-nEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="__cO8dI-nEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="__cO8dY-nEeKttrRa-xameQ" id="__cO8cI-nEeKttrRa-xameQ"/>
+          <operationCompartmentNode xmi:id="__cO8do-nEeKttrRa-xameQ"/>
+          <attributeCompartmentNode xmi:id="__cO8d4-nEeKttrRa-xameQ">
+            <attributes xmi:id="_ArUlwI-oEeKttrRa-xameQ" owner="_ArT-sI-oEeKttrRa-xameQ" name="id : int"/>
+            <attributes xmi:id="_Bqs_II-oEeKttrRa-xameQ" owner="_BqrxAI-oEeKttrRa-xameQ" name="title : string"/>
+            <attributes xmi:id="_CnrkwI-oEeKttrRa-xameQ" owner="_Cnq9sI-oEeKttrRa-xameQ" name="content : int"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="__cO8eI-nEeKttrRa-xameQ"/>
+          <templateParameterCompartmentNode xmi:id="__cO8eY-nEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_JN7gAI-oEeKttrRa-xameQ" owner="_JN648I-oEeKttrRa-xameQ" name="ReceiveMessage" filled="true" incomingConnections="_mQSb8I-oEeKttrRa-xameQ" outgoingConnections="_a4dBAo-oEeKttrRa-xameQ" location="280,115" size="157,105" autoResize="true">
+          <fillColor xmi:id="_JN7gAY-oEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_JN7gAo-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_JN7gA4-oEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_JN7gBI-oEeKttrRa-xameQ" id="_JN648I-oEeKttrRa-xameQ"/>
+          <operationCompartmentNode xmi:id="_JN7gBY-oEeKttrRa-xameQ"/>
+          <attributeCompartmentNode xmi:id="_JN7gBo-oEeKttrRa-xameQ">
+            <attributes xmi:id="_VgQ0UI-oEeKttrRa-xameQ" owner="_VgQNQI-oEeKttrRa-xameQ" name="id : int"/>
+            <attributes xmi:id="_W2XroI-oEeKttrRa-xameQ" owner="_W2WdgI-oEeKttrRa-xameQ" name="receiveTime : int"/>
+            <attributes xmi:id="_YMZqcI-oEeKttrRa-xameQ" owner="_YMZDYI-oEeKttrRa-xameQ" name="sendName : string"/>
+            <attributes xmi:id="_cOpX4I-oEeKttrRa-xameQ" owner="_cOoJwI-oEeKttrRa-xameQ" name="hasRead : boolean"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="_JN7gB4-oEeKttrRa-xameQ"/>
+          <templateParameterCompartmentNode xmi:id="_JN7gCI-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_PGM68I-oEeKttrRa-xameQ" name="1" location="529,139" size="22,28" parent="_PGKesI-oEeKttrRa-xameQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+          <fontColor xmi:id="_PGM68Y-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_PGM68o-oEeKttrRa-xameQ" name="1" location="435,85" size="22,28" parent="_PGKesI-oEeKttrRa-xameQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+          <fontColor xmi:id="_PGM684-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_RWqhsI-oEeKttrRa-xameQ" name="*" location="238,56" size="22,28" parent="_RWoFcI-oEeKttrRa-xameQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+          <fontColor xmi:id="_RWqhsY-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_RWqhso-oEeKttrRa-xameQ" name="1" location="176,28" size="22,28" parent="_RWoFcI-oEeKttrRa-xameQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+          <fontColor xmi:id="_RWqhs4-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_a4igkI-oEeKttrRa-xameQ" name="1" location="530,142" size="22,28" parent="_a4dBAo-oEeKttrRa-xameQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+          <fontColor xmi:id="_a4igkY-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_a4igko-oEeKttrRa-xameQ" name="1" location="433,142" size="22,28" parent="_a4dBAo-oEeKttrRa-xameQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+          <fontColor xmi:id="_a4igk4-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_mQWGUI-oEeKttrRa-xameQ" name="*" location="258,113" size="22,28" parent="_mQSb8I-oEeKttrRa-xameQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+          <fontColor xmi:id="_mQWGUY-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_mQWGUo-oEeKttrRa-xameQ" name="1" location="176,113" size="22,28" parent="_mQSb8I-oEeKttrRa-xameQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+          <fontColor xmi:id="_mQWGU4-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_nLKIwY-oEeKttrRa-xameQ" owner="_nLKIwI-oEeKttrRa-xameQ" name="DeleteMessage" filled="true" incomingConnections="_2xlrE4-oEeKttrRa-xameQ" outgoingConnections="_3mmAco-oEeKttrRa-xameQ" location="251,232" size="157,137" autoResize="true">
+          <fillColor xmi:id="_nLKIwo-oEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_nLKIw4-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_nLKIxI-oEeKttrRa-xameQ"/>
+          <stereotypeNodes xmi:id="_nLKIxY-oEeKttrRa-xameQ" id="_nLKIwI-oEeKttrRa-xameQ"/>
+          <operationCompartmentNode xmi:id="_nLKIxo-oEeKttrRa-xameQ"/>
+          <attributeCompartmentNode xmi:id="_nLKIx4-oEeKttrRa-xameQ">
+            <attributes xmi:id="_ppCgcI-oEeKttrRa-xameQ" owner="_ppBSUI-oEeKttrRa-xameQ" name="id : int"/>
+            <attributes xmi:id="_tXnD8I-oEeKttrRa-xameQ" owner="_tXmc4I-oEeKttrRa-xameQ" name="deleteTime : int"/>
+            <attributes xmi:id="_vTjMMI-oEeKttrRa-xameQ" owner="_vTh-EI-oEeKttrRa-xameQ" name="sendName : int"/>
+            <attributes xmi:id="_wu03YI-oEeKttrRa-xameQ" owner="_wu0QUI-oEeKttrRa-xameQ" name="receiveName : int"/>
+            <attributes xmi:id="_0pMbMI-oEeKttrRa-xameQ" owner="_0pLNEI-oEeKttrRa-xameQ" name="sendtime : int"/>
+            <attributes xmi:id="_12Co0I-oEeKttrRa-xameQ" owner="_12BasI-oEeKttrRa-xameQ" name="deletetime : int"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="_nLKIyI-oEeKttrRa-xameQ"/>
+          <templateParameterCompartmentNode xmi:id="_nLKIyY-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_2xqjkI-oEeKttrRa-xameQ" name="*" location="228,240" size="22,28" parent="_2xlrE4-oEeKttrRa-xameQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+          <fontColor xmi:id="_2xqjkY-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_2xqjko-oEeKttrRa-xameQ" name="1" location="160,172" size="22,28" parent="_2xlrE4-oEeKttrRa-xameQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+          <fontColor xmi:id="_2xqjk4-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_3mpq0I-oEeKttrRa-xameQ" name="1" location="529,203" size="22,28" parent="_3mmAco-oEeKttrRa-xameQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+          <fontColor xmi:id="_3mpq0Y-oEeKttrRa-xameQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_3mqR4I-oEeKttrRa-xameQ" name="1" location="408,265" size="22,28" parent="_3mmAco-oEeKttrRa-xameQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+          <fontColor xmi:id="_3mqR4Y-oEeKttrRa-xameQ"/>
+        </nodes>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_PGKesI-oEeKttrRa-xameQ" owner="_PGJQkI-oEeKttrRa-xameQ" name="" subLabels="_PGM68I-oEeKttrRa-xameQ _PGM68o-oEeKttrRa-xameQ" target="__cO8cY-nEeKttrRa-xameQ" source="_sDfmIY-nEeKttrRa-xameQ">
+          <fillColor xmi:id="_PGKesY-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_PGKeso-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_RWoFcI-oEeKttrRa-xameQ" owner="_RWneYI-oEeKttrRa-xameQ" name="" subLabels="_RWqhsI-oEeKttrRa-xameQ _RWqhso-oEeKttrRa-xameQ" target="_sDfmIY-nEeKttrRa-xameQ" source="_m4L-4Y-nEeKttrRa-xameQ">
+          <fillColor xmi:id="_RWoFcY-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_RWoFco-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_a4dBAo-oEeKttrRa-xameQ" owner="_a4cZ8I-oEeKttrRa-xameQ" name="" subLabels="_a4igkI-oEeKttrRa-xameQ _a4igko-oEeKttrRa-xameQ" target="__cO8cY-nEeKttrRa-xameQ" source="_JN7gAI-oEeKttrRa-xameQ">
+          <fillColor xmi:id="_a4dBA4-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_a4dBBI-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_mQSb8I-oEeKttrRa-xameQ" owner="_mQR04I-oEeKttrRa-xameQ" name="" subLabels="_mQWGUI-oEeKttrRa-xameQ _mQWGUo-oEeKttrRa-xameQ" target="_JN7gAI-oEeKttrRa-xameQ" source="_m4L-4Y-nEeKttrRa-xameQ">
+          <fillColor xmi:id="_mQSb8Y-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_mQSb8o-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_2xlrE4-oEeKttrRa-xameQ" owner="_2xkc8I-oEeKttrRa-xameQ" name="" subLabels="_2xqjkI-oEeKttrRa-xameQ _2xqjko-oEeKttrRa-xameQ" target="_nLKIwY-oEeKttrRa-xameQ" source="_m4L-4Y-nEeKttrRa-xameQ">
+          <fillColor xmi:id="_2xlrFI-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_2xlrFY-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_3mmAco-oEeKttrRa-xameQ" owner="_3mlZYI-oEeKttrRa-xameQ" name="" subLabels="_3mpq0I-oEeKttrRa-xameQ _3mqR4I-oEeKttrRa-xameQ" target="__cO8cY-nEeKttrRa-xameQ" source="_nLKIwY-oEeKttrRa-xameQ">
+          <fillColor xmi:id="_3mmAc4-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_3mmAdI-oEeKttrRa-xameQ" r="192" g="192" b="192"/>
+        </connections>
+        <leftRuler xmi:id="_JNyoAo-mEeKttrRa-xameQ" unit="2"/>
+        <topRuler xmi:id="_JNyoA4-mEeKttrRa-xameQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_m4L-4I-nEeKttrRa-xameQ" name="User">
+      <ownedAttribute xmi:id="_oDeGQI-nEeKttrRa-xameQ" name="id" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_olKeEI-nEeKttrRa-xameQ" name="username" visibility="private" type="_JL5KkI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_p_KW4I-nEeKttrRa-xameQ" name="password" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_RWneYY-oEeKttrRa-xameQ" name="" visibility="private" type="_sDfmII-nEeKttrRa-xameQ" isUnique="false" association="_RWneYI-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RWneY4-oEeKttrRa-xameQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RWneYo-oEeKttrRa-xameQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_mQR04Y-oEeKttrRa-xameQ" name="" visibility="private" type="_JN648I-oEeKttrRa-xameQ" isUnique="false" association="_mQR04I-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mQR044-oEeKttrRa-xameQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mQR04o-oEeKttrRa-xameQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_2xlEAI-oEeKttrRa-xameQ" name="" visibility="private" type="_nLKIwI-oEeKttrRa-xameQ" isUnique="false" association="_2xkc8I-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2xlEAo-oEeKttrRa-xameQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2xlEAY-oEeKttrRa-xameQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sDfmII-nEeKttrRa-xameQ" name="SendMessage">
+      <ownedAttribute xmi:id="_wC2XoI-nEeKttrRa-xameQ" name="id" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_1R5PYI-nEeKttrRa-xameQ" name="sendtime" visibility="private" type="_JLkacI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_3ENhkI-nEeKttrRa-xameQ" name="receiveName" visibility="private" type="_JL5KkI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_PGJ3oI-oEeKttrRa-xameQ" name="" visibility="private" type="__cO8cI-nEeKttrRa-xameQ" isUnique="false" association="_PGJQkI-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PGJ3oo-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PGJ3oY-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_RWneZI-oEeKttrRa-xameQ" name="" visibility="private" type="_m4L-4I-nEeKttrRa-xameQ" isUnique="false" association="_RWneYI-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RWneZo-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RWneZY-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__cO8cI-nEeKttrRa-xameQ" name="Message">
+      <ownedAttribute xmi:id="_ArT-sI-oEeKttrRa-xameQ" name="id" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_BqrxAI-oEeKttrRa-xameQ" name="title" visibility="private" type="_JL5KkI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_Cnq9sI-oEeKttrRa-xameQ" name="content" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_PGJ3o4-oEeKttrRa-xameQ" name="" visibility="private" type="_sDfmII-nEeKttrRa-xameQ" isUnique="false" association="_PGJQkI-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PGJ3pY-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PGJ3pI-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_a4cZ9I-oEeKttrRa-xameQ" name="" visibility="private" type="_JN648I-oEeKttrRa-xameQ" isUnique="false" association="_a4cZ8I-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a4dBAY-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a4dBAI-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_3mlZZI-oEeKttrRa-xameQ" name="" visibility="private" type="_nLKIwI-oEeKttrRa-xameQ" isUnique="false" association="_3mlZYI-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3mmAcY-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3mmAcI-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JN648I-oEeKttrRa-xameQ" name="ReceiveMessage">
+      <ownedAttribute xmi:id="_VgQNQI-oEeKttrRa-xameQ" name="id" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_W2WdgI-oEeKttrRa-xameQ" name="receiveTime" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_YMZDYI-oEeKttrRa-xameQ" name="sendName" visibility="private" type="_JL5KkI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_a4cZ8Y-oEeKttrRa-xameQ" name="" visibility="private" type="__cO8cI-nEeKttrRa-xameQ" isUnique="false" association="_a4cZ8I-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a4cZ84-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a4cZ8o-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_cOoJwI-oEeKttrRa-xameQ" name="hasRead" visibility="private" type="_fcDvEI-oEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_mQR05I-oEeKttrRa-xameQ" name="" visibility="private" type="_m4L-4I-nEeKttrRa-xameQ" isUnique="false" association="_mQR04I-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mQR05o-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mQR05Y-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PGJQkI-oEeKttrRa-xameQ" memberEnd="_PGJ3oI-oEeKttrRa-xameQ _PGJ3o4-oEeKttrRa-xameQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_RWneYI-oEeKttrRa-xameQ" memberEnd="_RWneYY-oEeKttrRa-xameQ _RWneZI-oEeKttrRa-xameQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_a4cZ8I-oEeKttrRa-xameQ" memberEnd="_a4cZ8Y-oEeKttrRa-xameQ _a4cZ9I-oEeKttrRa-xameQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mQR04I-oEeKttrRa-xameQ" memberEnd="_mQR04Y-oEeKttrRa-xameQ _mQR05I-oEeKttrRa-xameQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nLKIwI-oEeKttrRa-xameQ" name="DeleteMessage">
+      <ownedAttribute xmi:id="_ppBSUI-oEeKttrRa-xameQ" name="id" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_tXmc4I-oEeKttrRa-xameQ" name="deleteTime" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_vTh-EI-oEeKttrRa-xameQ" name="sendName" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_wu0QUI-oEeKttrRa-xameQ" name="receiveName" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_0pLNEI-oEeKttrRa-xameQ" name="sendtime" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_12BasI-oEeKttrRa-xameQ" name="deletetime" visibility="private" type="_JL38cI-mEeKttrRa-xameQ"/>
+      <ownedAttribute xmi:id="_2xlrEI-oEeKttrRa-xameQ" name="" visibility="private" type="_m4L-4I-nEeKttrRa-xameQ" isUnique="false" association="_2xkc8I-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2xlrEo-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2xlrEY-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_3mlZYY-oEeKttrRa-xameQ" name="" visibility="private" type="__cO8cI-nEeKttrRa-xameQ" isUnique="false" association="_3mlZYI-oEeKttrRa-xameQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3mlZY4-oEeKttrRa-xameQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3mlZYo-oEeKttrRa-xameQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2xkc8I-oEeKttrRa-xameQ" memberEnd="_2xlEAI-oEeKttrRa-xameQ _2xlrEI-oEeKttrRa-xameQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_3mlZYI-oEeKttrRa-xameQ" memberEnd="_3mlZYY-oEeKttrRa-xameQ _3mlZZI-oEeKttrRa-xameQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UnXdcI-oEeKttrRa-xameQ" name="void"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fcDvEI-oEeKttrRa-xameQ" name="boolean"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8LaPcI-oEeKttrRa-xameQ" name="时序图">
+    <eAnnotations xmi:id="_B7TKcI-pEeKttrRa-xameQ" source="Diagrams">
+      <contents xmi:type="trufun:TSequenceDiagram" xmi:id="_B7TKcY-pEeKttrRa-xameQ" id="_B7R8UI-pEeKttrRa-xameQ" owner="_8LaPcI-oEeKttrRa-xameQ" name="登录" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TInteractionNode" xmi:id="_B7xrkY-pEeKttrRa-xameQ" owner="_B7wdcI-pEeKttrRa-xameQ" name="登录" location="10,10" size="400,300">
+          <fillColor xmi:id="_B7xrko-pEeKttrRa-xameQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_B7xrk4-pEeKttrRa-xameQ" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_B7xrlI-pEeKttrRa-xameQ"/>
+          <nodes xmi:type="trufun:TLifelineNode_SD" xmi:id="_HHdtUo-pEeKttrRa-xameQ" owner="_HHdtUI-pEeKttrRa-xameQ" name=":User" filled="true" location="18,0" size="65,96" autoResize="true">
+            <fillColor xmi:id="_HHeUYI-pEeKttrRa-xameQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_HHeUYY-pEeKttrRa-xameQ" r="192" g="192" b="192"/>
+            <fontColor xmi:id="_HHeUYo-pEeKttrRa-xameQ"/>
+            <stereotypeNodes xmi:id="_HHeUY4-pEeKttrRa-xameQ" id="_HHdtUI-pEeKttrRa-xameQ"/>
+          </nodes>
+        </nodes>
+        <leftRuler xmi:id="_B7TKco-pEeKttrRa-xameQ" unit="2"/>
+        <topRuler xmi:id="_B7TKc4-pEeKttrRa-xameQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_B7wdcI-pEeKttrRa-xameQ" name="登录">
+      <eAnnotations xmi:id="_B7xEgI-pEeKttrRa-xameQ" source="TaggedValues">
+        <details xmi:id="_B7xEgY-pEeKttrRa-xameQ" key="IsNewInteraction" value="true"/>
+        <details xmi:id="_B7xrkI-pEeKttrRa-xameQ" key="IsNewestInteraction" value="true"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_HHdtUY-pEeKttrRa-xameQ" type="_m4L-4I-nEeKttrRa-xameQ" direction="inout"/>
+      <lifeline xmi:id="_HHdtUI-pEeKttrRa-xameQ" represents="_HHdtUY-pEeKttrRa-xameQ"/>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:id="_JLb3kI-mEeKttrRa-xameQ">
+    <eAnnotations xmi:id="_JLdFsI-mEeKttrRa-xameQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_JLe64I-mEeKttrRa-xameQ">
+    <eAnnotations xmi:id="_JLe64Y-mEeKttrRa-xameQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="../../../plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsopdEduhQbAH2yN0Zw"/>
+    </eAnnotations>
+    <appliedProfile href="../../../plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsIpdEduhQbAH2yN0Zw"/>
+  </profileApplication>
+</uml:Model>

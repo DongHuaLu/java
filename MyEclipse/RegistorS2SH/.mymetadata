@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="RegistorS2SH"
+  id="myeclipse.1363267732791"
+  context-root="/RegistorS2SH"
+  j2ee-spec="5.0"
+  archive="RegistorS2SH.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:trufun="http://trufun" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_bmogEIcUEeGMrucAcALHyg" name="model">
+  <eAnnotations xmi:id="_bmyREIcUEeGMrucAcALHyg" source="TaggedValues">
+    <details xmi:id="_bmyREYcUEeGMrucAcALHyg" key="ProjectType" value="UML2Project"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_bqz1cIcUEeGMrucAcALHyg" source="Diagrams">
+    <contents xmi:type="trufun:TClassDiagram" xmi:id="_bqz1cYcUEeGMrucAcALHyg" id="_bpUAoIcUEeGMrucAcALHyg" owner="_bmogEIcUEeGMrucAcALHyg" name="main" zoom="1.0" gridSpacing="22,22">
+      <nodes xmi:type="trufun:TActorNode" xmi:id="_2AwZAIcVEeGMrucAcALHyg" owner="_1wz4gIcVEeGMrucAcALHyg" name="玩家" filled="true" location="48,111" size="42,60">
+        <fillColor xmi:id="_2AwZAYcVEeGMrucAcALHyg" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_2AwZAocVEeGMrucAcALHyg" r="192" g="192" b="192"/>
+        <fontColor xmi:id="_2AwZA4cVEeGMrucAcALHyg"/>
+        <stereotypeNodes xmi:id="_2AwZBIcVEeGMrucAcALHyg"/>
+      </nodes>
+      <leftRuler xmi:id="_brP6UIcUEeGMrucAcALHyg" unit="2"/>
+      <topRuler xmi:id="_brP6UYcUEeGMrucAcALHyg" horizontal="true" unit="2"/>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_bmogEYcUEeGMrucAcALHyg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IyFxEIcWEeGMrucAcALHyg" name="GUI用例">
+    <eAnnotations xmi:id="_JCeWcIcWEeGMrucAcALHyg" source="Diagrams">
+      <contents xmi:type="trufun:TUsecaseDiagram" xmi:id="_HJVDgYcWEeGMrucAcALHyg" id="_HJVDgIcWEeGMrucAcALHyg" owner="_IyFxEIcWEeGMrucAcALHyg" name="扫雷界面模块" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TActorNode" xmi:id="_WjfEYIcWEeGMrucAcALHyg" owner="_1wz4gIcVEeGMrucAcALHyg" name="玩家" filled="true" incomingConnections="_fdTkx4cWEeGMrucAcALHyg _f0jnJ4cWEeGMrucAcALHyg _gZguV4cWEeGMrucAcALHyg _gyZIZ4cWEeGMrucAcALHyg" outgoingConnections="_gH7PF4cWEeGMrucAcALHyg" location="280,153" size="36,60">
+          <fillColor xmi:id="_WjfEYYcWEeGMrucAcALHyg" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_WjfEYocWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_WjfEY4cWEeGMrucAcALHyg"/>
+          <stereotypeNodes xmi:id="_WjfEZIcWEeGMrucAcALHyg"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_W9anUIcWEeGMrucAcALHyg" owner="_SrrsYIcWEeGMrucAcALHyg" name="记录游戏最优记录" filled="true" outgoingConnections="_gyZIZ4cWEeGMrucAcALHyg" location="61,257" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_W9anUYcWEeGMrucAcALHyg" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_W9anUocWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_W9anU4cWEeGMrucAcALHyg"/>
+          <stereotypeNodes xmi:id="_W9anVIcWEeGMrucAcALHyg"/>
+          <extensionPointCompartmentNode xmi:id="_W9anVYcWEeGMrucAcALHyg"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_YQagQIcWEeGMrucAcALHyg" owner="_CtBQQIcWEeGMrucAcALHyg" name="右键标记" filled="true" outgoingConnections="_f0jnJ4cWEeGMrucAcALHyg" location="33,80" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_YQagQYcWEeGMrucAcALHyg" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_YQagQocWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_YQagQ4cWEeGMrucAcALHyg"/>
+          <stereotypeNodes xmi:id="_YQagRIcWEeGMrucAcALHyg"/>
+          <extensionPointCompartmentNode xmi:id="_YQagRYcWEeGMrucAcALHyg"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_YbvmgIcWEeGMrucAcALHyg" owner="_KvQoYIcWEeGMrucAcALHyg" name="左右键自动探雷" filled="true" outgoingConnections="_gZguV4cWEeGMrucAcALHyg" location="230,20" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_YbvmgYcWEeGMrucAcALHyg" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_YbvmgocWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_Ybvmg4cWEeGMrucAcALHyg"/>
+          <stereotypeNodes xmi:id="_YbvmhIcWEeGMrucAcALHyg"/>
+          <extensionPointCompartmentNode xmi:id="_YbvmhYcWEeGMrucAcALHyg"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_YqyvIIcWEeGMrucAcALHyg" owner="_xjjN4IcVEeGMrucAcALHyg" name="左键探雷" filled="true" incomingConnections="_gH7PF4cWEeGMrucAcALHyg" location="440,80" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_YqyvIYcWEeGMrucAcALHyg" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_YqyvIocWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_YqyvI4cWEeGMrucAcALHyg"/>
+          <stereotypeNodes xmi:id="_YqyvJIcWEeGMrucAcALHyg"/>
+          <extensionPointCompartmentNode xmi:id="_YqyvJYcWEeGMrucAcALHyg"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_Y6SjsIcWEeGMrucAcALHyg" owner="_NYFr0IcWEeGMrucAcALHyg" name="更改游戏模式" filled="true" outgoingConnections="_fdTkx4cWEeGMrucAcALHyg" location="414,255" size="132,40" keepMaxSize="false">
+          <fillColor xmi:id="_Y6SjsYcWEeGMrucAcALHyg" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_Y6SjsocWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <fontColor xmi:id="_Y6Sjs4cWEeGMrucAcALHyg"/>
+          <stereotypeNodes xmi:id="_Y6SjtIcWEeGMrucAcALHyg"/>
+          <extensionPointCompartmentNode xmi:id="_Y6SjtYcWEeGMrucAcALHyg"/>
+        </nodes>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_fdTkx4cWEeGMrucAcALHyg" owner="_fdTkwIcWEeGMrucAcALHyg" name="" target="_WjfEYIcWEeGMrucAcALHyg" source="_Y6SjsIcWEeGMrucAcALHyg">
+          <fillColor xmi:id="_fdTkyIcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_fdTkyYcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_f0jnJ4cWEeGMrucAcALHyg" owner="_f0jnIIcWEeGMrucAcALHyg" name="" target="_WjfEYIcWEeGMrucAcALHyg" source="_YQagQIcWEeGMrucAcALHyg">
+          <fillColor xmi:id="_f0jnKIcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_f0jnKYcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_gH7PF4cWEeGMrucAcALHyg" owner="_gH7PEIcWEeGMrucAcALHyg" name="" target="_YqyvIIcWEeGMrucAcALHyg" source="_WjfEYIcWEeGMrucAcALHyg">
+          <fillColor xmi:id="_gH7PGIcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_gH7PGYcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_gZguV4cWEeGMrucAcALHyg" owner="_gZguUIcWEeGMrucAcALHyg" name="" target="_WjfEYIcWEeGMrucAcALHyg" source="_YbvmgIcWEeGMrucAcALHyg">
+          <fillColor xmi:id="_gZguWIcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_gZguWYcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+        </connections>
+        <connections xmi:type="trufun:TAssociationConnection" xmi:id="_gyZIZ4cWEeGMrucAcALHyg" owner="_gyZIYIcWEeGMrucAcALHyg" name="" target="_WjfEYIcWEeGMrucAcALHyg" source="_W9anUIcWEeGMrucAcALHyg">
+          <fillColor xmi:id="_gyZIaIcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+          <lineColor xmi:id="_gyZIaYcWEeGMrucAcALHyg" r="192" g="192" b="192"/>
+        </connections>
+        <leftRuler xmi:id="_HJVDgocWEeGMrucAcALHyg" unit="2"/>
+        <topRuler xmi:id="_HJVDg4cWEeGMrucAcALHyg" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1wz4gIcVEeGMrucAcALHyg" name="玩家"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CtBQQIcWEeGMrucAcALHyg" name="右键标记"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xjjN4IcVEeGMrucAcALHyg" name="左键探雷"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KvQoYIcWEeGMrucAcALHyg" name="左右键自动探雷"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NYFr0IcWEeGMrucAcALHyg" name="更改游戏模式"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SrrsYIcWEeGMrucAcALHyg" name="记录游戏最优记录"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fdTkwIcWEeGMrucAcALHyg" memberEnd="_fdTkwYcWEeGMrucAcALHyg _fdTkxIcWEeGMrucAcALHyg">
+      <ownedEnd xmi:id="_fdTkwYcWEeGMrucAcALHyg" name="" visibility="private" type="_1wz4gIcVEeGMrucAcALHyg" isUnique="false" association="_fdTkwIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fdTkw4cWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fdTkwocWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_fdTkxIcWEeGMrucAcALHyg" name="" visibility="private" type="_NYFr0IcWEeGMrucAcALHyg" isUnique="false" association="_fdTkwIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fdTkxocWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fdTkxYcWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_f0jnIIcWEeGMrucAcALHyg" memberEnd="_f0jnIYcWEeGMrucAcALHyg _f0jnJIcWEeGMrucAcALHyg">
+      <ownedEnd xmi:id="_f0jnIYcWEeGMrucAcALHyg" name="" visibility="private" type="_1wz4gIcVEeGMrucAcALHyg" isUnique="false" association="_f0jnIIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f0jnI4cWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f0jnIocWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_f0jnJIcWEeGMrucAcALHyg" name="" visibility="private" type="_CtBQQIcWEeGMrucAcALHyg" isUnique="false" association="_f0jnIIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f0jnJocWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f0jnJYcWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gH7PEIcWEeGMrucAcALHyg" memberEnd="_gH7PEYcWEeGMrucAcALHyg _gH7PFIcWEeGMrucAcALHyg">
+      <ownedEnd xmi:id="_gH7PEYcWEeGMrucAcALHyg" name="" visibility="private" type="_xjjN4IcVEeGMrucAcALHyg" isUnique="false" association="_gH7PEIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gH7PE4cWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gH7PEocWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_gH7PFIcWEeGMrucAcALHyg" name="" visibility="private" type="_1wz4gIcVEeGMrucAcALHyg" isUnique="false" association="_gH7PEIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gH7PFocWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gH7PFYcWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gZguUIcWEeGMrucAcALHyg" memberEnd="_gZguUYcWEeGMrucAcALHyg _gZguVIcWEeGMrucAcALHyg">
+      <ownedEnd xmi:id="_gZguUYcWEeGMrucAcALHyg" name="" visibility="private" type="_1wz4gIcVEeGMrucAcALHyg" isUnique="false" association="_gZguUIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gZguU4cWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gZguUocWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_gZguVIcWEeGMrucAcALHyg" name="" visibility="private" type="_KvQoYIcWEeGMrucAcALHyg" isUnique="false" association="_gZguUIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gZguVocWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gZguVYcWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gyZIYIcWEeGMrucAcALHyg" memberEnd="_gyZIYYcWEeGMrucAcALHyg _gyZIZIcWEeGMrucAcALHyg">
+      <ownedEnd xmi:id="_gyZIYYcWEeGMrucAcALHyg" name="" visibility="private" type="_1wz4gIcVEeGMrucAcALHyg" isUnique="false" association="_gyZIYIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gyZIY4cWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gyZIYocWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_gyZIZIcWEeGMrucAcALHyg" name="" visibility="private" type="_SrrsYIcWEeGMrucAcALHyg" isUnique="false" association="_gyZIYIcWEeGMrucAcALHyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gyZIZocWEeGMrucAcALHyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gyZIZYcWEeGMrucAcALHyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnFMAocUEeGMrucAcALHyg" name="Byte">
+    <eAnnotations xmi:id="_bnFMA4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnFMBIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9AIcUEeGMrucAcALHyg" name="Character">
+    <eAnnotations xmi:id="_bnO9AYcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9AocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9A4cUEeGMrucAcALHyg" name="Date">
+    <eAnnotations xmi:id="_bnO9BIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9BYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9BocUEeGMrucAcALHyg" name="Double">
+    <eAnnotations xmi:id="_bnO9B4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9CIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9CYcUEeGMrucAcALHyg" name="Float">
+    <eAnnotations xmi:id="_bnO9CocUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9C4cUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9DIcUEeGMrucAcALHyg" name="Long">
+    <eAnnotations xmi:id="_bnO9DYcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9DocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9D4cUEeGMrucAcALHyg" name="Real">
+    <eAnnotations xmi:id="_bnO9EIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9EYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9EocUEeGMrucAcALHyg" name="Short">
+    <eAnnotations xmi:id="_bnO9E4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9FIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG8IcUEeGMrucAcALHyg" name="Int">
+    <eAnnotations xmi:id="_bnYG8YcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG8ocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG84cUEeGMrucAcALHyg" name="String">
+    <eAnnotations xmi:id="_bnYG9IcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG9YcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG9ocUEeGMrucAcALHyg" name="Integer">
+    <eAnnotations xmi:id="_bnYG94cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG-IcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG-YcUEeGMrucAcALHyg" name="byte">
+    <eAnnotations xmi:id="_bnYG-ocUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG-4cUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG_IcUEeGMrucAcALHyg" name="character">
+    <eAnnotations xmi:id="_bnYG_YcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG_ocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG_4cUEeGMrucAcALHyg" name="date">
+    <eAnnotations xmi:id="_bnYHAIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHAYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHAocUEeGMrucAcALHyg" name="double">
+    <eAnnotations xmi:id="_bnYHA4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHBIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHBYcUEeGMrucAcALHyg" name="float">
+    <eAnnotations xmi:id="_bnYHBocUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHB4cUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHCIcUEeGMrucAcALHyg" name="long">
+    <eAnnotations xmi:id="_bnYHCYcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHCocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHC4cUEeGMrucAcALHyg" name="real">
+    <eAnnotations xmi:id="_bnYHDIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHDYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHDocUEeGMrucAcALHyg" name="short">
+    <eAnnotations xmi:id="_bnYHD4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHEIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnh38IcUEeGMrucAcALHyg" name="int">
+    <eAnnotations xmi:id="_bnh38YcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnh38ocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnh384cUEeGMrucAcALHyg" name="string">
+    <eAnnotations xmi:id="_bnh39IcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnh39YcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnh39ocUEeGMrucAcALHyg" name="integer">
+    <eAnnotations xmi:id="_bnh394cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnh3-IcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <profileApplication xmi:id="_bmyREocUEeGMrucAcALHyg">
+    <eAnnotations xmi:id="_bmyRE4cUEeGMrucAcALHyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_bnFMAIcUEeGMrucAcALHyg">
+    <eAnnotations xmi:id="_bnFMAYcUEeGMrucAcALHyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="../../../plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsopdEduhQbAH2yN0Zw"/>
+    </eAnnotations>
+    <appliedProfile href="../../../plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsIpdEduhQbAH2yN0Zw"/>
+  </profileApplication>
+</uml:Model>

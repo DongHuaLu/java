@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Untitled Document</title>
+		<script type="text/javascript">
+			
+			var flag=true;
+			function changed(obj){
+				var cs=parseInt(obj.style.fontSize);
+				if(flag){
+					cs+=5;
+					obj.style.fontSize=cs+"px";
+					flag=false;
+				}else{
+					cs-=5;
+					obj.style.fontSize=cs+"px";
+					flag=true;
+				}
+				//obj.style.fontSize="14px";
+				
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div onclick="changed(this)" style="font-size:14px">点击变大</div>
+	</body>
+</html>

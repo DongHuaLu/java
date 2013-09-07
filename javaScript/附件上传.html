@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>附件上传</title>
+<script type="text/javascript">
+function addFile(){
+	var tabNode=document.getElementsByTagName("table")[0];
+	trNode=tabNode.insertRow();
+	tdNode_file=trNode.insertCell();
+	tdNode_del=trNode.insertCell();
+	
+	tdNode_file.innerHTML= "<input type='file' />";
+	tdNode_del.innerHTML="<a href=javascript:void(0) onclick='del(this)'>删除附件</a>";
+}
+
+function del(aNode){
+	 var trNode=aNode.parentNode.parentNode;
+	 trNode.parentNode.removeChild(trNode);
+}
+
+</script>
+
+
+<style type="text/css">
+table,table td{
+border:#0099FF 1px solid
+}
+a:link,a:visited{
+text-decoration:none;
+color:#9900FF;
+}
+</style>
+
+</head>
+
+<body>
+<table>
+	<tr>
+		<td><a href="javascript:void(0)" onclick="addFile()" >添加附件</a><br /></td>
+		
+	</tr>
+</table>
+
+</body>
+</html>

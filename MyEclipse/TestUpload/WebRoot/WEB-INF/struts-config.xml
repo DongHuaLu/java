@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+  <form-beans >
+    <form-bean name="fileForm" type="com.yourcompany.struts.form.FileForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="fileForm"
+      input="/WEB-INF/upload.jsp"
+      name="fileForm"
+      path="/file"
+      scope="request"
+      type="com.yourcompany.struts.action.FileAction"
+      validate="false"
+      cancellable="true" >
+      <forward name="ok" path="/WEB-INF/upload.jsp" />
+    </action>
+
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

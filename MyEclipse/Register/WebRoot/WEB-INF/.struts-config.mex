@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/register.do" location="135,150" dimension="264,104" />
+  <StrutsActivity path="/WEB-INF/err.jsp" location="-15,-15" dimension="150,100" />
+  <StrutsActivity path="/WEB-INF/register.jsp" location="195,-15" dimension="150,100" />
+  <StrutsActivity path="/WEB-INF/ok.jsp" location="15,300" dimension="150,100" />
+  <StrutsActivity path="/login.jsp" location="450,60" dimension="166,100" />
+  <StrutsActivity path="/login.do" location="650,150" dimension="248,104" />
+  <StrutsTransition id="/register.do,err,/WEB-INF/err.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="135,202" />
+      <AbsolutePoint location="60,202" />
+      <AbsolutePoint location="60,85" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WEB-INF/register.jsp,null,/register.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="300,85" />
+      <AbsolutePoint location="300,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register.do,ok,/WEB-INF/ok.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="150,254" />
+      <AbsolutePoint location="150,300" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register.do,err_areadyhas,/WEB-INF/register.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="270,150" />
+      <AbsolutePoint location="270,85" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.jsp,null,/login.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="533,160" />
+      <AbsolutePoint location="533,202" />
+      <AbsolutePoint location="650,202" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

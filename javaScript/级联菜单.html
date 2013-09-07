@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>级联菜单</title>
+<script type="text/javascript">
+function changeCity(){
+	var cityarr=[
+		["---选择城市---"],
+		["北京1"],
+		["辽宁1","辽宁2","辽宁3","辽宁4"],
+		["山东1","山东2","山东3","山东4","山东5"],
+		["河南1","河南2"]]
+		
+	var selectedIndex=document.getElementById("province").selectedIndex;
+	var tempCity=cityarr[selectedIndex];
+	var cityNode=document.getElementById("city");
+	
+	cityNode.options.length=0;
+	
+	/*for(var i=0;i<cityNode.options.length;){
+		cityNode.removeChild(cityNode.options[i]);
+	}*/
+	
+	for (var i=0;i<tempCity.length;i++){
+		var oppNode=document.createElement("option");
+		oppNode.innerText=tempCity[i];
+		cityNode.appendChild(oppNode);
+	}
+	
+
+}
+
+
+
+
+</script>
+
+
+
+</head>
+
+<body>
+<select id="province" onchange="changeCity()" >
+<option>---选择省份---</option>
+<option>北京</option>
+<option>辽宁</option>
+<option>山东</option>
+<option>河南</option>
+</select>
+
+<select id="city">
+<option>---选择城市---</option>
+
+</select>
+</body>
+</html>

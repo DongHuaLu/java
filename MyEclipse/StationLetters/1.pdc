@@ -1,0 +1,31 @@
+create trigger users_trigger
+before insert on users
+for each row
+  begin
+    select squ_userid.nextval into :new.userid from dual;
+  end;
+  
+  
+insert into users(username,userpassword) values('孙飞','孙飞');
+
+
+--来源--外键(id),
+--送达---外键(id),
+--消息头 not null
+--消息体--
+--文件名 
+--UUID
+--消息ID 主键
+--时间 not null
+
+
+create table message(
+       messageid number primary key,
+       sendfrom number references users(userid),
+       sendto number references users(userid),
+       messagehead varchar2(30) not null,
+       messagetext varchar2(200),
+       filename varchar2(50),
+       fileuuid varchar2(50),
+       senddate date
+       )

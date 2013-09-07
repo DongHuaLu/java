@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>间隔表格</title>
+<style type="text/css" >
+table{
+border:#00FF00 1px solid;
+}
+table td,table th{
+border:#996600 1px solid;
+}
+.odd{
+background:#CCCCCC;
+}
+.over{
+background-color:#FF0000;
+}
+.even{
+background:;
+}
+</style>
+
+<script type="text/javascript">
+var className1="";
+function trcolor(){
+
+	var tabNode=document.getElementsByTagName("table")[0];
+	var tabRows=tabNode.rows;
+	for (var i=1;i<tabRows.length;i++){
+		if(i%2==1){
+			tabRows[i].className="odd";
+		}
+		else{
+			tabRows[i].className="even";
+		}
+		
+		tabRows[i].onmouseover=function(){
+			className1=this.className;
+			this.className="over";
+		}
+		
+		tabRows[i].onmouseout=function(){
+			this.className=className1;
+		}
+	}	
+}
+
+
+	
+
+window.onload=trcolor;
+</script>
+</head>
+
+<body>
+
+<table>
+	<tr>
+		<th>姓名</th>
+		<th><a href="javascript:void(0)">年龄</a></th>
+		<th>住址</th>
+	</tr>
+
+
+	<tr>
+		<td>张三</td>
+		<td>66</td>
+		<td>北京</td>
+	</tr>
+	
+	<tr>
+		<td>李四</td>
+		<td>12</td>
+		<td>上海</td>
+	</tr>
+	
+	<tr>
+		<td>赵六</td>
+		<td>7</td>
+		<td>苏州</td>
+	</tr>
+	
+	<tr>
+		<td>王五</td>
+		<td>33</td>
+		<td>深圳</td>
+	</tr>
+
+	<tr>
+		<td>张三</td>
+		<td>66</td>
+		<td>北京</td>
+	</tr>
+	
+	<tr>
+		<td>李四</td>
+		<td>12</td>
+		<td>上海</td>
+	</tr>
+	
+	<tr>
+		<td>赵六</td>
+		<td>7</td>
+		<td>苏州</td>
+	</tr>
+	
+	<tr>
+		<td>王五</td>
+		<td>33</td>
+		<td>深圳</td>
+	</tr>
+	
+		<tr>
+		<td>赵六</td>
+		<td>7</td>
+		<td>苏州</td>
+	</tr>
+	
+	<tr>
+		<td>王五</td>
+		<td>33</td>
+		<td>深圳</td>
+	</tr>
+
+	<tr>
+		<td>张三</td>
+		<td>66</td>
+		<td>北京</td>
+	</tr>
+	
+	<tr>
+		<td>李四</td>
+		<td>12</td>
+		<td>上海</td>
+	</tr>
+	
+	<tr>
+		<td>赵六</td>
+		<td>7</td>
+		<td>苏州</td>
+	</tr>
+	
+	<tr>
+		<td>王五</td>
+		<td>33</td>
+		<td>深圳</td>
+	</tr>
+</table>
+
+</body>
+</html>

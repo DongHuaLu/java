@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Insert title here</title>
+        <script type="text/javascript">            
+            window.onload = init;
+            function init(){
+                var select = document.getElementById("select");
+                select.onchange = getPerson
+                
+            }
+            
+            
+            function getPerson(){
+                var dtd = this.value;
+                //1.获取XMLHttpRequest
+                var xhr = createXMLHttpRequest();
+                //2.通过xhr来打开页面
+                xhr.open("POST","personJson.do",true);
+                xhr.onreadystatechange = function(){
+					if (xhr.readyState == 4 && xhr.status == 200) {
+						var json = xhr.responseText;
+						var ps = eval(json);
+						var str="";
+						for(var i=0;i<ps.length;i++){
+							str+=ps[i].id+"------"+
+								 ps[i].name+"--------"+
+								 ps[i].age+"<br/>"							
+						}
+						document.getElementById("persons").innerHTML=str;
+					}
+                }
+				xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                xhr.send("dtd="+dtd);
+                
+                //4.传递参数
+            }
+			
+	
+            
+            
+            
+            function createXMLHttpRequest(){
+                if (window.XMLHttpRequest) {
+                    //针对其他主流浏览器
+                    return new XMLHttpRequest();
+                }
+                else 
+                    if (window.ActiveXObject) {
+                        //针对IE5和IE6
+                        return new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    else {
+                        alert("你使用的浏览器不支持XMLHttpRequest，请换一个浏览器再试！");
+                        return null;
+                    }
+            }
+            
+            
+        </script>
+    </head>
+    <body>
+        <select id="select">
+            <option value="1">人</option>
+            <option value="2">吃</option>
+            <option value="3">德克士</option>
+        </select>
+		<div id="persons"></div>
+    </body>
+</html>

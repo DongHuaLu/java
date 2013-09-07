@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Insert title here</title>
+        <script type="text/javascript">
+            var areaDoc = "";
+            window.onload = init;
+            function init(){
+                initProvince();
+                var province = document.getElementById("province");
+                province.onchange = getCitys;
+				var city=document.getElementById("city");
+				city.onchange=getCountry;
+            }
+            
+            
+            function initProvince(){
+                //通过ajax读取Area.xml，并且获取所有的省份内容
+                var xhr = createXMLHttpRequest();
+                xhr.open("GET", "2.xml", true);
+                xhr.onreadystatechange = function(){
+                    if (xhr.readyState == 4) {
+                        areaDoc = xhr.responseXML;
+                        var nodes = areaDoc.getElementsByTagName("province");
+                        insertOption("province", nodes);
+                        
+                        
+                    }
+                }
+                xhr.send();
+            }
+            
+            function getCitys(){
+                var pv = this.value;
+                var cn = getNodes("province", pv);
+                var citys = cn.getElementsByTagName("city");
+                insertOption("city", citys);
+            }
+			
+			function getCountry(){
+				var cv=this.value;
+				var cn=getNodes("city",cv);
+				var countrys=cn.getElementsByTagName("country");
+				insertOption("country",countrys);
+				
+				
+			}
+            
+            function insertOption(selectName, nodes){
+                var pn = document.getElementById(selectName);
+                pn.options.length = 1;
+                for (var i = 0; i < nodes.length; i++) {
+                    var node = document.createElement("option");
+                    node.text = nodes[i].getAttribute("name");
+                    node.value = nodes[i].getAttribute("value");
+                    pn.add(node);
+                }
+                
+                
+            }
+            
+            function getNodes(selectName, value){
+                var parent = areaDoc.getElementsByTagName(selectName);
+                for (var i = 0; i < parent.length; i++) {
+                    if (parent[i].getAttribute("value") == value) 
+                        return parent[i];
+                    
+                }
+                
+            }
+            
+            
+            
+            
+            function createXMLHttpRequest(){
+                if (window.XMLHttpRequest) {
+                    //针对其他主流浏览器
+                    return new XMLHttpRequest();
+                }
+                else 
+                    if (window.ActiveXObject) {
+                        //针对IE5和IE6
+                        return new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    else {
+                        alert("你使用的浏览器不支持XMLHttpRequest，请换一个浏览器再试！");
+                        return null;
+                    }
+            }
+        </script>
+    </head>
+    <body>
+        <select id="province">
+            <option>请选择省份</option>
+        </select>
+        <select id="city">
+            <option>请选择市</option>
+        </select>
+        <select id="country">
+            <option>请选择区</option>
+        </select>
+    </body>
+</html>

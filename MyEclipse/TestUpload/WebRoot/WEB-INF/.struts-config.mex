@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/file.do" location="231,166" dimension="150,100" />
+  <StrutsActivity path="/WEB-INF/upload.jsp" location="15,120" dimension="150,100" />
+  <StrutsTransition id="/file.do,ok,/WEB-INF/upload.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="231,181" />
+      <AbsolutePoint location="165,181" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WEB-INF/upload.jsp,null,/file.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="165,205" />
+      <AbsolutePoint location="231,205" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

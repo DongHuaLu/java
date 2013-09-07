@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Untitled Document</title>
+		<script type='text/javascript'>
+			function clickd(obj){
+				alert(obj);
+				alert(obj.innerHTML);
+				alert("点击");				
+			}
+			function onmouseoverd(obj){
+				obj.style.color="red";
+				obj.style.fontSize="32px";
+			}
+			function onmouseoutd(obj){
+				obj.style.color="black";
+				obj.style.fontSize="16px";
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div onclick="clickd(this)">点击inner</div>
+		<div onmouseover="onmouseoverd(this)" onmouseout="onmouseoutd(this)">移动</div>
+	</body>
+</html>

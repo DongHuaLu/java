@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<script type="text/javascript">
+			var timeId;
+			function start(){
+				//setTimeout 延时执行
+				//setTimeout("bigger()",500);
+				//setInterval 每隔一段时间执行
+				timeId=setInterval("bigger()",100);
+			}
+			function stop(){
+				clearInterval(timeId);				
+			}
+			var flag=true;
+			function bigger(){				
+				var node=document.getElementById("text");
+				var size=parseInt(node.style.fontSize);
+				
+				if(size>80){
+					flag=false;
+				}
+				if(size<14){
+					flag=true;
+				}
+				
+				
+				if(flag){
+					size+=2;
+					node.style.fontSize=size+"px";
+				}else{
+					size-=2;
+					node.style.fontSize=size+"px";
+				}
+			}
+			
+		</script>
+	</head>
+	
+	<body>
+		<div onclick="start()">开始</div>
+		<div onclick="stop()">停止</div>
+		<div id="text" style="font-size:14px" >inner</div>
+	</body>
+</html>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>New Web Project</title>
+		<script type="text/javascript" src="jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//1. 取所有li中的a
+				//$("li a").css("color","#f00");
+				
+				//2. 取class为.myList中的第一个li中的第一个a
+				//$(".myList>li>a").css("color","#f00");
+				
+				//3. 取以http://开头的a
+				//$("a[href^='http://']").css("color","#f00");
+				
+				//4. 取包含a的li
+				//$(".myList ul li:has('a')").css("color","#ff0");
+				
+				//5. 获取所有以.pdf结尾的a
+				//$("a[href$='.pdf']").css("color","#f00");
+				
+				//6. E+F 前边是E的F所有节点(E和F需要相邻)==找F,前边有E(EF相邻)
+				//$("#li1+li").css("background","#ff0");
+				
+				//7. E~f 前边是E的F的所有节点(EF不用相邻)==找F,前边有E(EF不相邻)
+				//$("#li1~li").css("background","#ff0");
+				
+				//8. a中包含title属性的a
+				//$("a[title]").css("background","#f00");
+				
+				//9. :first最先匹配到的第一个元素,会返回整个第一个li的整个(包括其中的a,ul,li...)
+				//alert($("li:first").html());
+				
+				//10. :last最后匹配的li				
+				//alert($("li:last").html());
+				
+				//11. li:first-child/li:last-child 返回为li第一个子元素
+				//三个结果,第一个大li,第一个和第二个大li中的第一个小li
+				//$("li:first-child").css("background","#ff0")
+				
+				//12. .myList中的li的第一个元素,两个结果,只返回大li中的小li
+				$(".myList>li li:first-child").css("background","#ff0")
+			})
+			
+		</script>
+    </head>
+    <body>
+        <ul class="myList">
+            <li>
+                <a href="http://www.jquery.com">JQuery site</a>
+                <ul>
+                	<li>
+                        <a href="css1.txt" title="mycss">CSS1</a>
+                    </li>
+                    <li id="li1">
+                        <a href="css2.pdf">CSS2</a>
+                    </li>
+                    <li>
+                        <a href="css3.exe" title="mycss3">CSS3</a>
+                    </li>
+                    <li>
+                        Basic XPath
+                    </li>
+                </ul>
+                <li>
+                    JQuery alse support
+                    <ul>
+                        <li>
+                            custom selectors
+                        </li>
+                        <li>
+                            form selectors
+                        </li>
+                    </ul>
+                </li>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+  <form-beans >
+    <form-bean name="registerForm" type="com.dolph.struts.form.RegisterForm" />
+    <form-bean name="loginForm" type="com.dolph.struts.form.LoginForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards >
+    
+
+  </global-forwards>
+
+  <action-mappings >
+    <action
+      attribute="registerForm"
+      input="/WEB-INF/register.jsp"
+      name="registerForm"
+      path="/register"
+      scope="request"
+      type="com.dolph.struts.action.RegisterAction"
+      cancellable="true" >
+      <forward name="ok" path="/WEB-INF/ok.jsp" />
+      <forward name="err_areadyhas" path="/WEB-INF/register.jsp" />
+      <forward name="err" path="/WEB-INF/err.jsp" />
+    </action>
+    <action
+      attribute="loginForm"
+      input="/login.jsp"
+      name="loginForm"
+      path="/login"
+      scope="request"
+      type="com.dolph.struts.action.LoginAction"
+      cancellable="true" />
+
+
+  </action-mappings>
+
+  <message-resources parameter="com.dolph.struts.ApplicationResources" />
+</struts-config>
+

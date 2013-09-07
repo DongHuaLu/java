@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>节点操作</title>
+<script type="text/javascript">
+
+	function changeSize(size){
+		var pobjs=document.getElementsByTagName("p");
+		pobjs[0].style.fontSize=size;
+	}
+	function getSize(){
+		var fontSizeText=document.getElementById("fontSize");		
+		var size=fontSizeText.value;
+		changeSize(size);
+	}
+	
+	function checkno(){
+		if (!(window.event.keyCode>=48 && window.event.keyCode<=57))
+			event.returnValue =false;
+	}
+	
+	function clean(){
+		var fontSizeText=document.getElementById("fontSize");	
+		fontSizeText.value="";
+	
+	}
+
+</script>
+
+</head>
+
+<body>
+<input type="button" value="test" onclick="" />
+<a href="javascript:void(0)" onclick="changeSize(50)">[大]</a>
+<a href="javascript:void(0)" onclick="changeSize(30)">[中]</a>
+<a href="javascript:void(0)" onclick="changeSize(10)">[小]</a>
+<input type="text"  id="fontSize" value="改变字体大小"  onfocus="clean()"  onkeypress="checkno()" />
+<input type="button" value="提交" onclick="getSize()"  />
+
+
+<p>text area</p>
+</body>
+</html>

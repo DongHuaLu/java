@@ -1,0 +1,17 @@
+create sequence squ_message
+start with 1
+increment by 1
+nocycle
+nocache
+maxvalue 99999
+
+
+create trigger squ_messageid
+before insert on message
+for each row
+  begin
+    select squ_message.nextval into :new.messageid from dual;
+  end;
+  
+  
+select * from (select username,message.* from message left join users on  users.userid=message.sendto)where sendto=5;

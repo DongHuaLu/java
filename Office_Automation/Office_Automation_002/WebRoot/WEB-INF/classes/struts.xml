@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<include file="common.xml" />
+	<package name="system" namespace="/system" extends="common">
+		<action name="*" class="{1}Action">
+			<result name="index">/org/index.jsp</result>
+			<result name="person_list">/org/person_list.jsp</result>
+			<result name="company_input">/org/company_input.jsp</result>
+			<result name="update_input">/org/{1}_update_input.jsp</result>
+			<result name="add_input">/org/{1}_add_input.jsp</result>
+			<result name="success">/org/success.jsp</result>
+		</action>		
+		<action name="user" class="userAction">
+			<result name="index">/user/index.jsp</result>
+			<result name="add_input">/user/add_input.jsp</result>
+			<result name="update_input">/user/update_input.jsp</result>
+			<result name="success">/user/success.jsp</result>
+		</action>
+		<action name="role" class="roleAction">
+			<result name="index">/role/index.jsp</result>
+			<result name="add_input">/role/add_input.jsp</result>
+			<result name="update_input">/role/update_input.jsp</result>
+			<result name="success">/role/success.jsp</result>
+		</action>
+		<action name="menu" class="menuAction">
+			<result name="index">/menu/index.jsp</result>
+			<result name="add_input">/menu/add_input.jsp</result>
+			<result name="update_input">/menu/update_input.jsp</result>
+			<result name="success">/menu/success.jsp</result>
+		</action>
+	</package>
+
+</struts>

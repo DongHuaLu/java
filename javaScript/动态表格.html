@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>动态表格</title>
+<style type="text/css">
+table{
+border:#00CC00 1px solid;
+}
+table td{
+border:#3399FF 1px solid;
+}
+
+</style>
+
+<script type="text/javascript">
+
+
+function delCol(){
+	var tabNode=document.getElementsByTagName("table")[0];
+	var delNum=document.getElementsByName("delCol")[0].value;
+	if (tabNode==null){
+		alert ("表格不存在!!");
+		renturn;
+	}
+	else{
+		if(delNum <= tabNode.rows[0].cells.length &&delNum>0)
+			for (var i=0;i<tabNode.rows.length;i++){
+				tabNode.rows[i].deleteCell(delNum-1);			
+			}
+		else
+		alert("列不存在!");
+	}
+
+
+}
+
+function delRow(){
+	var tabNode=document.getElementsByTagName("table")[0];
+	var delNum=document.getElementsByName("delRow")[0].value;
+	if (tabNode==null){
+		alert ("表格不存在!!");
+		renturn;
+	}
+	else{
+		if(delNum <= tabNode.rows.length &&delNum>0)
+		tabNode.deleteRow(delNum-1);
+		else
+		alert("行不存在!");
+	}
+}
+
+
+function creatTab(){
+
+	var tabNode=document.createElement("table");
+	var rowNum=document.getElementsByName("rowNum")[0].value;
+	var colNum=document.getElementsByName("colNum")[0].value;
+	
+	for (var i=1;i<=rowNum;i++)
+	{
+		var trNode=tabNode.insertRow();
+		for (var j=1;j<=colNum;j++)
+		{
+			var tdNode=trNode.insertCell();
+			tdNode.innerHTML=i+"行"+j+"列";
+		}
+	}
+	
+	document.getElementsByTagName("div")[0].appendChild(tabNode);
+	event.srcElement.disabled= true;
+	
+}
+
+</script>
+
+</head>
+
+<body>
+<input type="text" name="rowNum" />行<br />
+<input type="text" name="colNum" />列<br />
+<input type="button" value="创建表格" onclick="creatTab()"  />
+
+<div>
+</div>
+
+<input type="text" name="delRow" />删除行<input type="button" value="执行" onclick="delRow()"/><br />
+<input type="text" name="delCol" />删除列<input type="button" value="执行" onclick="delCol()"/><br />
+
+</body>
+</html>

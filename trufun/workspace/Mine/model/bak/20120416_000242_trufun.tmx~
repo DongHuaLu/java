@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:trufun="http://trufun" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_bmogEIcUEeGMrucAcALHyg" name="model">
+  <eAnnotations xmi:id="_bmyREIcUEeGMrucAcALHyg" source="TaggedValues">
+    <details xmi:id="_bmyREYcUEeGMrucAcALHyg" key="ProjectType" value="UML2Project"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_bqz1cIcUEeGMrucAcALHyg" source="Diagrams">
+    <contents xmi:type="trufun:TClassDiagram" xmi:id="_bqz1cYcUEeGMrucAcALHyg" id="_bpUAoIcUEeGMrucAcALHyg" owner="_bmogEIcUEeGMrucAcALHyg" name="main" zoom="1.0" gridSpacing="22,22">
+      <leftRuler xmi:id="_brP6UIcUEeGMrucAcALHyg" unit="2"/>
+      <topRuler xmi:id="_brP6UYcUEeGMrucAcALHyg" horizontal="true" unit="2"/>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_bmogEYcUEeGMrucAcALHyg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnFMAocUEeGMrucAcALHyg" name="Byte">
+    <eAnnotations xmi:id="_bnFMA4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnFMBIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9AIcUEeGMrucAcALHyg" name="Character">
+    <eAnnotations xmi:id="_bnO9AYcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9AocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9A4cUEeGMrucAcALHyg" name="Date">
+    <eAnnotations xmi:id="_bnO9BIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9BYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9BocUEeGMrucAcALHyg" name="Double">
+    <eAnnotations xmi:id="_bnO9B4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9CIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9CYcUEeGMrucAcALHyg" name="Float">
+    <eAnnotations xmi:id="_bnO9CocUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9C4cUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9DIcUEeGMrucAcALHyg" name="Long">
+    <eAnnotations xmi:id="_bnO9DYcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9DocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9D4cUEeGMrucAcALHyg" name="Real">
+    <eAnnotations xmi:id="_bnO9EIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9EYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnO9EocUEeGMrucAcALHyg" name="Short">
+    <eAnnotations xmi:id="_bnO9E4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnO9FIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG8IcUEeGMrucAcALHyg" name="Int">
+    <eAnnotations xmi:id="_bnYG8YcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG8ocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG84cUEeGMrucAcALHyg" name="String">
+    <eAnnotations xmi:id="_bnYG9IcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG9YcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG9ocUEeGMrucAcALHyg" name="Integer">
+    <eAnnotations xmi:id="_bnYG94cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG-IcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG-YcUEeGMrucAcALHyg" name="byte">
+    <eAnnotations xmi:id="_bnYG-ocUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG-4cUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG_IcUEeGMrucAcALHyg" name="character">
+    <eAnnotations xmi:id="_bnYG_YcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYG_ocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYG_4cUEeGMrucAcALHyg" name="date">
+    <eAnnotations xmi:id="_bnYHAIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHAYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHAocUEeGMrucAcALHyg" name="double">
+    <eAnnotations xmi:id="_bnYHA4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHBIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHBYcUEeGMrucAcALHyg" name="float">
+    <eAnnotations xmi:id="_bnYHBocUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHB4cUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHCIcUEeGMrucAcALHyg" name="long">
+    <eAnnotations xmi:id="_bnYHCYcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHCocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHC4cUEeGMrucAcALHyg" name="real">
+    <eAnnotations xmi:id="_bnYHDIcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHDYcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnYHDocUEeGMrucAcALHyg" name="short">
+    <eAnnotations xmi:id="_bnYHD4cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnYHEIcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnh38IcUEeGMrucAcALHyg" name="int">
+    <eAnnotations xmi:id="_bnh38YcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnh38ocUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnh384cUEeGMrucAcALHyg" name="string">
+    <eAnnotations xmi:id="_bnh39IcUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnh39YcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_bnh39ocUEeGMrucAcALHyg" name="integer">
+    <eAnnotations xmi:id="_bnh394cUEeGMrucAcALHyg" source="Internel_TaggedValues">
+      <details xmi:id="_bnh3-IcUEeGMrucAcALHyg" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <profileApplication xmi:id="_bmyREocUEeGMrucAcALHyg">
+    <eAnnotations xmi:id="_bmyRE4cUEeGMrucAcALHyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_bnFMAIcUEeGMrucAcALHyg">
+    <eAnnotations xmi:id="_bnFMAYcUEeGMrucAcALHyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="../../../plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsopdEduhQbAH2yN0Zw"/>
+    </eAnnotations>
+    <appliedProfile href="../../../plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsIpdEduhQbAH2yN0Zw"/>
+  </profileApplication>
+</uml:Model>

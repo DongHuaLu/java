@@ -1,0 +1,37 @@
+create table users(
+userid number primary key,
+uname varchar2(50) not null,
+upassword varchar2(50) not null,
+email varchar2(100) not null,
+tel varchar2(20),
+grade number(2) default 1 not null
+)
+insert into users (uname,upassword,email,tel,grade) values ('user1','user1','user1@user1.com','123456','1');
+---------------------------------------
+create sequence sequence_userid increment by 1 start with 1 nocache;
+---------------------------------------
+create trigger users_seqid
+before insert on users
+for each row
+  begin
+    select sequence_userid.nextval into :new.userid from dual;
+  end;
+---------------------------------------
+create table books(
+bookid number primary key,
+bookname varchar2(50) not null,
+author varchar2(50) not null,
+publishHouse varchar2(50) not null,
+price number(6,2) not null,
+nums number not null
+)
+insert into books (bookname,author,publishhouse,price,nums) values('笑傲江湖','金庸','没有',50.12,1000);
+----------------------------------------
+create sequence sequence_bookid increment by 1 start with 1 nocache;
+----------------------------------------
+create or replace trigger books_seqid
+before insert on books
+  for each row
+    begin
+      select sequence_bookid.nextval into :new.bookid from dual;
+    end;
